@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+</head>
+<body>
+
+<div class="top-home">
+    <nav>
+        <div class="icon-container">
+            <div class="nav-icons">
+                <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                    <img class="icon" src="assets/facebook-icon.png" id="fb">
+                </a>
+                <a href="https://soundcloud.com/dorian-dumont" target="_blank">
+                    <img class="icon" src="assets/sound_cloud.png" id="sound">
+                </a>
+                <a href="https://www.youtube.com/channel/UCQEGIwUjPFRUMo1_3W5ABmQ" target="_blank">
+                    <img class="icon" src="assets/youtube.png" id="youtube">
+                </a>
+                <a href="http://www.twitter.com/dodumont" target="_blank">
+                    <img class="icon" id="twitter" src="assets/twitter.png">
+                </a>
+            </div>
+        </div>
+        <div class="newsletter-signup">
+            Signup for newsletter here bla bla  _______________________
+
+        </div>
+    </nav>
+    <div class="name-banner">
+        dorian dumont
+    </div>
+
+    <ul>
+        <li *ngFor="#user of users">
+            {{ user.name }} is {{ user.age }} years old.
+        </li>
+        <ul>
+
+        <div class="bottom-banner">
+        <div class="container-bottom-nav">
+            <a href="#" class="nav-element"> home </a>
+            <a href="#" class="nav-element"> news </a>
+            <a href="#" class="nav-element"> dorian </a>
+            <a href="#" class="nav-element"> projets </a>
+            <a href="#" class="nav-element"> musique </a>
+            <a href="#" class="nav-element"> discographie </a>
+            <a href="#" class="nav-element"> presse </a>
+            <a href="#" class="nav-element"> agenda </a>
+            <a href="#" class="nav-element"> bonus ?! </a>
+            <a href="#" class="nav-element"> contact </a>
+        </div>
+
+    </div>
+    </div>
+
+
+<div class="home-video">
+    <iframe  src="https://www.youtube.com/embed/53TqNS1vTQo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="fresh-news">what's up?</div>
+
+</body>
+</html>

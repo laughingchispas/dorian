@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Daniel';
+  -webkit-animation: bugfix infinite 1s;
+  height: calc(100% - 10px); }
+
+.top-home {
+  background-image: url(../assets/unnamed.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 2000px;
+  position: relative;
+  display: block; }
+  .top-home nav {
+    background-color: #ffe700;
+    display: block;
+    position: relative; }
+    .top-home nav .nav-icons {
+      display: flex;
+      padding: 0 0 0 30px; }
+      .top-home nav .nav-icons #twitter {
+        padding: 7.5px;
+        width: 15px; }
+      .top-home nav .nav-icons #youtube {
+        width: 25px;
+        padding: 2.5px; }
+      .top-home nav .nav-icons #sound {
+        width: 30px; }
+      .top-home nav .nav-icons #fb {
+        width: 22px;
+        padding: 4px; }
+    .top-home nav .newsletter-signup {
+      padding: 6px 30px 0 0; }
+  .top-home .name-banner {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    height: 40px;
+    padding: 15px 0 0 40px;
+    font-size: 30px;
+    background-color: black; }
+  .top-home .bottom-banner {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    color: black; }
+    .top-home .bottom-banner .container-bottom-nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      background-color: #ffe700; }
+      .top-home .bottom-banner .container-bottom-nav .nav-element {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        padding: 35px 5px 0 5px;
+        width: 120px;
+        height: 60px;
+        text-align: center; }
+      .top-home .bottom-banner .container-bottom-nav a:hover {
+        background-color: black;
+        color: #ffe700; }
+
+.home-video {
+  background-color: pink;
+  position: relative;
+  height: 1000px;
+  width: 100%; }
+  .home-video iframe {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.fresh-news {
+  background-color: orange;
+  position: relative; }
+
+@media only screen and (min-width: 650px) {
+  .top-home {
+    background-image: url(../assets/unnamed.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+    background-color: purple;
+    position: relative; }
+    .top-home nav {
+      background-color: #ffe700;
+      display: flex;
+      justify-content: space-between; }
+      .top-home nav .nav-icons {
+        display: flex;
+        padding: 0 0 0 30px; } }
+
+/*# sourceMappingURL=main.css.map */
